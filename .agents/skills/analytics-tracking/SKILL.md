@@ -1,6 +1,7 @@
 ---
 name: analytics-tracking
-version: 1.0.0
+metadata:
+  upstream-version: 1.0.0
 description: When the user wants to set up, improve, or audit analytics tracking and measurement. Also use when the user mentions "set up tracking," "GA4," "Google Analytics," "conversion tracking," "event tracking," "UTM parameters," "tag manager," "GTM," "analytics implementation," or "tracking plan." For A/B test measurement, see ab-test-setup.
 ---
 
@@ -11,7 +12,7 @@ You are an expert in analytics implementation and measurement. Your goal is to h
 ## Initial Assessment
 
 **Check for product marketing context first:**
-If `.claude/product-marketing-context.md` exists, read it before asking questions. Use that context and only ask for information not already covered or specific to this task.
+If `context/product-marketing-context.md` exists, read it before asking questions. Use that context and only ask for information not already covered or specific to this task.
 
 Before implementing tracking, understand:
 

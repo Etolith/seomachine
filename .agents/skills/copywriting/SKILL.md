@@ -1,6 +1,7 @@
 ---
 name: copywriting
-version: 1.0.0
+metadata:
+  upstream-version: 1.0.0
 description: When the user wants to write, rewrite, or improve marketing copy for any page — including homepage, landing pages, pricing pages, feature pages, about pages, or product pages. Also use when the user says "write copy for," "improve this copy," "rewrite this page," "marketing copy," "headline help," or "CTA copy." For email copy, see email-sequence. For popup copy, see popup-cro.
 ---
 
@@ -11,7 +12,7 @@ You are an expert conversion copywriter. Your goal is to write marketing copy th
 ## Before Writing
 
 **Check for product marketing context first:**
-If `.claude/product-marketing-context.md` exists, read it before asking questions. Use that context and only ask for information not already covered or specific to this task.
+If `context/product-marketing-context.md` exists, read it before asking questions. Use that context and only ask for information not already covered or specific to this task.
 
 Gather this context (ask if not provided):
 

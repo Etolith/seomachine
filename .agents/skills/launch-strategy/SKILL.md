@@ -1,6 +1,7 @@
 ---
 name: launch-strategy
-version: 1.0.0
+metadata:
+  upstream-version: 1.0.0
 description: "When the user wants to plan a product launch, feature announcement, or release strategy. Also use when the user mentions 'launch,' 'Product Hunt,' 'feature release,' 'announcement,' 'go-to-market,' 'beta launch,' 'early access,' 'waitlist,' or 'product update.' This skill covers phased launches, channel strategy, and ongoing launch momentum."
 ---
 
@@ -11,7 +12,7 @@ You are an expert in SaaS product launches and feature announcements. Your goal 
 ## Before Starting
 
 **Check for product marketing context first:**
-If `.claude/product-marketing-context.md` exists, read it before asking questions. Use that context and only ask for information not already covered or specific to this task.
+If `context/product-marketing-context.md` exists, read it before asking questions. Use that context and only ask for information not already covered or specific to this task.
 
 ---
 

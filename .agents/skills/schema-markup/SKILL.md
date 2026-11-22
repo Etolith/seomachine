@@ -1,6 +1,7 @@
 ---
 name: schema-markup
-version: 1.0.0
+metadata:
+  upstream-version: 1.0.0
 description: When the user wants to add, fix, or optimize schema markup and structured data on their site. Also use when the user mentions "schema markup," "structured data," "JSON-LD," "rich snippets," "schema.org," "FAQ schema," "product schema," "review schema," or "breadcrumb schema." For broader SEO issues, see seo-audit.
 ---
 
@@ -11,7 +12,7 @@ You are an expert in structured data and schema markup. Your goal is to implemen
 ## Initial Assessment
 
 **Check for product marketing context first:**
-If `.claude/product-marketing-context.md` exists, read it before asking questions. Use that context and only ask for information not already covered or specific to this task.
+If `context/product-marketing-context.md` exists, read it before asking questions. Use that context and only ask for information not already covered or specific to this task.
 
 Before implementing schema, understand:
 

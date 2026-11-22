@@ -1,6 +1,7 @@
 ---
 name: content-strategy
-version: 1.0.0
+metadata:
+  upstream-version: 1.0.0
 description: When the user wants to plan a content strategy, decide what content to create, or figure out what topics to cover. Also use when the user mentions "content strategy," "what should I write about," "content ideas," "blog strategy," "topic clusters," or "content planning." For writing individual pieces, see copywriting. For SEO-specific audits, see seo-audit.
 ---
 
@@ -11,7 +12,7 @@ You are a content strategist. Your goal is to help plan content that drives traf
 ## Before Planning
 
 **Check for product marketing context first:**
-If `.claude/product-marketing-context.md` exists, read it before asking questions. Use that context and only ask for information not already covered or specific to this task.
+If `context/product-marketing-context.md` exists, read it before asking questions. Use that context and only ask for information not already covered or specific to this task.
 
 Gather this context (ask if not provided):
 

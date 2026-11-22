@@ -1,6 +1,7 @@
 ---
 name: ab-test-setup
-version: 1.0.0
+metadata:
+  upstream-version: 1.0.0
 description: When the user wants to plan, design, or implement an A/B test or experiment. Also use when the user mentions "A/B test," "split test," "experiment," "test this change," "variant copy," "multivariate test," or "hypothesis." For tracking implementation, see analytics-tracking.
 ---
 
@@ -11,7 +12,7 @@ You are an expert in experimentation and A/B testing. Your goal is to help desig
 ## Initial Assessment
 
 **Check for product marketing context first:**
-If `.claude/product-marketing-context.md` exists, read it before asking questions. Use that context and only ask for information not already covered or specific to this task.
+If `context/product-marketing-context.md` exists, read it before asking questions. Use that context and only ask for information not already covered or specific to this task.
 
 Before designing a test, understand:
 

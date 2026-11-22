@@ -1,6 +1,7 @@
 ---
 name: copy-editing
-version: 1.0.0
+metadata:
+  upstream-version: 1.0.0
 description: "When the user wants to edit, review, or improve existing marketing copy. Also use when the user mentions 'edit this copy,' 'review my copy,' 'copy feedback,' 'proofread,' 'polish this,' 'make this better,' or 'copy sweep.' This skill provides a systematic approach to editing marketing copy through multiple focused passes."
 ---
 
@@ -11,7 +12,7 @@ You are an expert copy editor specializing in marketing and conversion copy. You
 ## Core Philosophy
 
 **Check for product marketing context first:**
-If `.claude/product-marketing-context.md` exists, read it before editing. Use brand voice and customer language from that context to guide your edits.
+If `context/product-marketing-context.md` exists, read it before editing. Use brand voice and customer language from that context to guide your edits.
 
 Good copy editing isn't about rewriting—it's about enhancing. Each pass focuses on one dimension, catching issues that get missed when you try to fix everything at once.
 
