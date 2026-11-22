@@ -4,7 +4,7 @@ from pathlib import Path
 
 
 MODULE_PATH = (
-    Path(__file__).resolve().parents[1] / "data_sources" / "modules" / "dataforseo.py"
+    (Path(__file__).resolve().parents[1] / ".agents" / "skills" / "seo-machine") / "data_sources" / "modules" / "dataforseo.py"
 )
 
 

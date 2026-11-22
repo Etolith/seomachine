@@ -97,11 +97,11 @@ NOTES.md
 personal-*.md
 
 # Data source credentials and cache
-data_sources/config/.env
-data_sources/config/*_credentials.json
-data_sources/config/*_config.json
-data_sources/cache/*
-!data_sources/cache/.gitkeep
+.agents/skills/seo-machine/data_sources/config/.env
+.agents/skills/seo-machine/data_sources/config/*_credentials.json
+.agents/skills/seo-machine/data_sources/config/*_config.json
+.agents/skills/seo-machine/data_sources/cache/*
+!.agents/skills/seo-machine/data_sources/cache/.gitkeep
 
 # Python virtual environment
 venv/

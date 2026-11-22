@@ -10,3 +10,6 @@ topics/
 __pycache__
 *.pyc
 .DS_Store
+
+**/.env
+**/*_credentials.json

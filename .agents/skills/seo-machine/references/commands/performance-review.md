@@ -351,7 +351,7 @@ A successful performance review should:
 
 ## Integration with Performance Agent
 
-The Performance Agent (`.claude/agents/performance.md`) provides the intelligence behind this command. It:
+The Performance Agent (`references/agents/performance.md`) provides the intelligence behind this command. It:
 - Analyzes all data sources comprehensively
 - Applies scoring and prioritization logic
 - Generates detailed opportunity analysis

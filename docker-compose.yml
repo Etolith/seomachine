@@ -4,7 +4,7 @@ services:
       context: .
       dockerfile: Dockerfile
     env_file:
-      - data_sources/config/.env
+      - .agents/skills/seo-machine/data_sources/config/.env
     volumes:
       - ./context:/app/context
       - ./drafts:/app/drafts
@@ -14,4 +14,4 @@ services:
       - ./rewrites:/app/rewrites
       - ./topics:/app/topics
       - ./credentials:/app/credentials
-      - ./.claude:/app/.claude
+      - ./.agents:/app/.agents
