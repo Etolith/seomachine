@@ -16,12 +16,12 @@ If you encounter bugs or have suggestions:
 ### Suggesting Improvements
 
 **For Commands**:
-- Propose new workflow commands in `.claude/commands/`
+- Propose new workflow commands in `references/commands/`
 - Explain the use case and workflow
 - Provide example command structure
 
 **For Agents**:
-- Suggest new specialized agents in `.claude/agents/`
+- Suggest new specialized agents in `references/agents/`
 - Define the agent's expertise and output format
 - Show how it integrates with existing workflow
 
@@ -62,7 +62,7 @@ If you encounter bugs or have suggestions:
 
 ## Code Style Guidelines
 
-### Command Files (`.claude/commands/`)
+### Command Files (`references/commands/`)
 - Use clear, descriptive command names
 - Include comprehensive "What This Command Does" section
 - Provide detailed "Process" breakdown
@@ -70,7 +70,7 @@ If you encounter bugs or have suggestions:
 - Include "File Management" for automatic saves
 - Give usage examples
 
-### Agent Files (`.claude/agents/`)
+### Agent Files (`references/agents/`)
 - Define "Core Mission" clearly
 - List "Expertise Areas"
 - Provide detailed analysis framework

@@ -6,7 +6,7 @@ from pathlib import Path
 
 
 MODULE_PATH = (
-    Path(__file__).resolve().parents[1]
+    (Path(__file__).resolve().parents[1] / ".agents" / "skills" / "seo-machine")
     / "data_sources"
     / "modules"
     / "google_analytics.py"
