@@ -20,7 +20,7 @@ class DataForSEO:
 
         Args:
             login: API login (defaults to env var)
-            password: API password (defaults to env var)
+            password — read from the configured environment when omitted
         """
         self.login = login or os.getenv("DATAFORSEO_LOGIN")
         self.password = password or os.getenv("DATAFORSEO_PASSWORD")

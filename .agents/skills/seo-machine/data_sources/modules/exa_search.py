@@ -32,7 +32,7 @@ class ExaSearch:
         Initialize Exa search client
 
         Args:
-            api_key: Exa API key (defaults to EXA_API_KEY env var)
+            api_key — read from EXA_API_KEY in the configured environment when omitted
         """
         self.api_key = api_key or os.getenv("EXA_API_KEY")
 
