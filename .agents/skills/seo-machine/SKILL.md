@@ -20,8 +20,7 @@ does not contact providers or execute their tools. Host-managed OAuth and MCP
 grants must be inspected through the host's actual connection tools; they cannot
 be inferred from environment variables or this package's metadata.
 
-Use customer-authored files in `context/` when supplied. Templates are in
-`references/context-templates/`; placeholders are not customer facts. Voice,
+Use customer-authored files in `context/` when supplied. Start from the [brand voice template](references/context-templates/brand-voice.md) when needed; its placeholders are not customer facts. Voice,
 audience, product claims and terminology must come from the owner or an
 authorized source. If the host provides saved-agent memory, recall relevant
 preferences for each task. A current-request override changes only that task.
@@ -39,8 +38,7 @@ Read only the workflow needed for the request:
 - Final review: [optimize](references/commands/optimize.md).
 - Publish an approved draft: [publish draft](references/commands/publish-draft.md).
 
-Other original workflows are under `references/commands/` and specialist
-review procedures under `references/agents/`. Their slash-command labels name
+The other original workflows and specialist review procedures are in the installed references directory. Their slash-command labels name
 workflows; they are not executable shell commands. Replace `$ARGUMENTS` with the
 actual user request. Source-code paths in those references resolve beneath
 `<skill>`, while `context/`, `research/`, `drafts/`, `rewrites/` and `published/`
