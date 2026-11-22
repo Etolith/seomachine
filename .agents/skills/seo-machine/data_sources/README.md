@@ -54,7 +54,7 @@ Data sources provide real-time performance metrics for:
 ```
 data_sources/
 ├── config/                 # API credentials and settings
-│   ├── .env.example       # Template for environment variables
+│   ├── environment.example.txt       # Template for environment variables
 │   ├── ga4_config.json    # GA4 property settings
 │   ├── gsc_config.json    # Search Console property settings
 │   └── dataforseo_config.json  # DataForSEO settings
@@ -128,7 +128,7 @@ pip install -r data_sources/requirements.txt
 
 Copy example config:
 ```bash
-cp data_sources/config/.env.example data_sources/config/.env
+cp data_sources/config/environment.example.txt data_sources/config/.env
 ```
 
 Edit `.env` with your credentials:

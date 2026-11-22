@@ -71,7 +71,7 @@ Before first use, set up API credentials in `data_sources/config/.env`:
 
 ```bash
 # Copy example config
-cp data_sources/config/.env.example data_sources/config/.env
+cp data_sources/config/environment.example.txt data_sources/config/.env
 
 # Edit with your credentials
 nano data_sources/config/.env
